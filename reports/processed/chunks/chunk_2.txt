@@ -1,0 +1,1 @@
+2 . In which area Python Programming is useful for ? Python Programming is useful in the area of : a . web development ( server - side ) , b . software development , c . mathematics , d . system scripting .

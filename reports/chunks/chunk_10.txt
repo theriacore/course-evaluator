@@ -1,0 +1,6 @@
+ 
+Assignment operator ( = ) is operator which is used to assign a value to a variable .
+For example : 
+x = 5 
+y = " John " 
+1 2 . What are arithmetic operators in Python 

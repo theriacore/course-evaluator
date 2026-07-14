@@ -1,0 +1,4 @@
+ Explain with an example . 
+Arithmetic operators are operators used to perform mathematical operation on variables and value .
+For example , in 5 + 9 , ‘ + ’ is arithmetic operator performing addition on values 5 and 9 . 
+Similarly , in p / q , ‘ / ’ is arithmetic operator performing division on p and q .

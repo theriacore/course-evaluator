@@ -1,0 +1,1 @@
+11. What is assignment operator ? Assignment operator ( = ) is operator which is used to assign a value to a variable . For example : x = 5 y = " John "

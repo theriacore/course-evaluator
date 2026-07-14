@@ -1,0 +1,1 @@
+5 . What are the two modes of Python ? The two modes of Python are interactive and script mode .

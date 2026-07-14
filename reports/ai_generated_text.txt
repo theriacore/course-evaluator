@@ -1,0 +1,1 @@
+Python is a high level programming language used for web development, software development, data analysis and automation. Python supports different data types such as integers, floats and strings. Variables are used to store values in Python. Operators are symbols used to perform different operations on variables and values.

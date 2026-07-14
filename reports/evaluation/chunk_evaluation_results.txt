@@ -1,0 +1,23 @@
+Chunk Evaluation Report
+======================
+
+chunk_1.txt | 1 . What is Python | 61.43% | Moderate Coverage
+chunk_10.txt | Assignment operator ( = ) is operator which is used to assig | 60.15% | Moderate Coverage
+chunk_11.txt | Explain with an example . | 36.71% | Needs Improvement
+chunk_2.txt | Python is a high - level , general - purpose programming lan | 78.79% | Strong Coverage
+chunk_3.txt | Python Programming is useful in the area of : | 76.60% | Strong Coverage
+chunk_4.txt | Python can be used on a server to create web applications . | 78.13% | Strong Coverage
+chunk_5.txt | Python is preferred programming language due to the followin | 73.44% | Strong Coverage
+chunk_6.txt | The two modes of Python are interactive and script mode . | 64.28% | Moderate Coverage
+chunk_7.txt | Variables – Variables are containers for storing data values | 73.18% | Strong Coverage
+chunk_8.txt | Python supports a number of data types such as number , stri | 65.42% | Moderate Coverage
+chunk_9.txt | Operators are special symbols that are used to perform opera | 63.09% | Moderate Coverage
+
+
+Final Evaluation
+================
+Average Similarity Score: 66.48%
+Final Evaluation: Moderate Coverage
+
+Weak Sections:
+- Explain with an example .

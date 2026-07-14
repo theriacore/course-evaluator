@@ -1,0 +1,7 @@
+AI SEMANTIC COURSE EVALUATION REPORT
+====================================
+
+Date: 2026-07-14 13:39:36.021545
+
+Semantic Score: 62.0%
+Evaluation: Moderate Coverage

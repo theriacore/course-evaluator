@@ -1,0 +1,28 @@
+COURSE EVALUATION REPORT
+========================
+
+COURSE EVALUATION REPORT
+========================
+
+Date: 2026-07-11 15:47:16.516511
+
+Average Score: 100.0%
+Final Evaluation: High Coverage
+
+Chunk Results
+-------------
+chunk_1.txt | 100.0% | Good
+chunk_10.txt | 100.0% | Good
+chunk_11.txt | 100.0% | Good
+chunk_2.txt | 100.0% | Good
+chunk_3.txt | 100.0% | Good
+chunk_4.txt | 100.0% | Good
+chunk_5.txt | 100.0% | Good
+chunk_6.txt | 100.0% | Good
+chunk_7.txt | 100.0% | Good
+chunk_8.txt | 100.0% | Good
+chunk_9.txt | 100.0% | Good
+
+Weak Sections
+--------------
+No weak sections found

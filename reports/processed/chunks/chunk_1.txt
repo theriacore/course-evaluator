@@ -1,0 +1,1 @@
+1 . What is Python ? Python is a high - level , general - purpose programming language . Its design philosophy emphasizescode readability with the use of significant indentation .

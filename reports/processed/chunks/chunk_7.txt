@@ -1,0 +1,1 @@
+7 . What is script mode . List its advantages and drawbacks . In script mode , we type python program in a file and then use interpreter to execute the content ofthe file . Scripts can be saved to disk for future use . Python scripts have the extension . py , meaningthat the filename ends with . py . Document Author : Ashrya Soni Page 2 of 1 2

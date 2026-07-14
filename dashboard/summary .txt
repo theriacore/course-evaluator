@@ -1,0 +1,24 @@
+AI Course Evaluation Dashboard
+=============================
+
+Document:
+Class 9 Python Programming Language
+
+
+Evaluation Result:
+Average Similarity Score: 66.48%
+
+Coverage Level:
+Moderate Coverage
+
+
+Generated Outputs:
+
+✓ Semantic comparison completed
+✓ Chunk evaluation completed
+✓ Recommendations generated
+✓ Score visualization created
+
+
+Visualization:
+dashboard/charts/chunk_scores.png

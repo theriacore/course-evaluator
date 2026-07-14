@@ -1,0 +1,93 @@
+D o c u m e n t  A u t h o r :  A s h r y a  S o n i  
+P a g e  1  o f  1 2
+Class IX  
+Python Programming Language  
+T h e o r e t i c a l Q u e s t i o n s  
+ 
+1 .  W h a t  i s  P y t h o n ?  
+P y t h o n  i s  a  h i g h - l e v e l ,  g e n e r a l - p u r p o s e  p r o g r a m m i n g  l a n g u a g e .  I t s  d e s i g n  p h i l o s o p h y  e m p h a s i z e s
+c o d e  r e a d a b i l i t y  w i t h  t h e  u s e  o f  s i g n i f i c a n t  i n d e n t a t i o n .  
+2 .  I n  w h i c h  a r e a  P y t h o n  P r o g r a m m i n g  i s  u s e f u l  f o r ?
+P y t h o n  P r o g r a m m i n g  i s  u s e f u l  i n  t h e  a r e a  o f :  
+a .  w e b  d e v e l o p m e n t  ( s e r v e r - s i d e ) ,
+b .  s o f t w a r e  d e v e l o p m e n t ,  
+c .  m a t h e m a t i c s ,  
+d .  s y s t e m  s c r i p t i n g .  
+3 .  W h a t  c a n  P y t h o n  d o ?  
+P y t h o n  c a n  b e  u s e d  o n  a  s e r v e r  t o  c r e a t e  w e b  a p p l i c a t i o n s .  
+a .  P y t h o n  c a n  b e  u s e d  a l o n g s i d e  s o f t w a r e  t o  c r e a t e  w o r k f l o w s .  
+b .  P y t h o n  c a n  c o n n e c t  t o  d a t a b a s e  s y s t e m s .  I t  c a n  a l s o  r e a d  a n d  m o d i f y  f i l e s .  
+c .  P y t h o n  c a n  b e  u s e d  t o  h a n d l e  b i g  d a t a  a n d  p e r f o r m  c o m p l e x  m a t h e m a t i c s .  
+d .  P y t h o n  c a n  b e  u s e d  f o r  r a p i d  p r o t o t y p i n g ,  o r  f o r  p r o d u c t i o n - r e a d y  s o f t w a r e  d e v e l o p m e n t .  
+4 .  W h y  P y t h o n ?  
+P y t h o n  i s  p r e f e r r e d  p r o g r a m m i n g  l a n g u a g e  d u e  t o  t h e  f o l l o w i n g  r e a s o n s :  
+a .  E a s y  t o  l e a r n :  I t  h a s  f e w e r  k e y w o r d s  a n d  s i m p l e  s t r u c t u r e  o f  i n s t r u c t i o n s ,  s o  l e s s  e f f o r t s  t o  
+l e a r n  P y t h o n .  
+F r e e  a n d  o p e n  s o u r c e  b .  
+c .  P o r t a b l e :  A  P y t h o n  p r o g r a m  c a n  r u n  o n  w i d e  v a r i e t y  o f  h a r d w a r e  p l a t f o r m s .  
+d .  E x t e n s i v e  l i b r a r y  s u p p o r t :  P y t h o n  s a v e s  t i m e s  a n d  e f f o r t  u s i n g  t h e  s u p p o r t  o f  e x t e n s i v e  
+l i b r a r y .  
+A s  a n  e x a m p l e ,  Y o u T u b e  h a s  b e e n  l a r g e l y  w r i t t e n  i n  P y t h o n .  G o o g l e  m a k e s  e x t e n s i v e  u s e  o f  P y t h o n .
+N A S A  u s e s  P y t h o n  f o r  s c i e n t i f i c  p r o g r a m m i n g  t a s k s .  
+5 .  W h a t  a r e  t h e  t w o  m o d e s  o f  P y t h o n ?  
+T h e  t w o  m o d e s  o f  P y t h o n  a r e  i n t e r a c t i v e  a n d  s c r i p t  m o d e .  
+6 .  W h a t  i s  i n t e r a c t i v e  m o d e .  L i s t  i t ’ s  a d v a n t a g e s  a n d  d r a w b a c k s .  
+A s  t h e  n a m e  s u g g e s t s ,  I n t e r a c t i v e  m o d e  a l l o w s  u s  t o  i n t e r a c t  w i t h  O S .  W h e n  w e  t y p e  P y t h o n
+s t a t e m e n t ,  i n t e r p r e t e r  d i s p l a y s  t h e  r e s u l t ( s )  i m m e d i a t e l y .  
+A d v a n t a g e s :  
+•
+•  
+P y t h o n ,  i n  i n t e r a c t i v e  m o d e ,  i s  g o o d  e n o u g h  t o  l e a r n ,  e x p e r i m e n t  o r  e x p l o r e .  
+W o r k i n g  i n  i n t e r a c t i v e  m o d e  i s  c o n v e n i e n t  f o r  b e g i n n e r s  a n d  f o r  t e s t i n g  s m a l l  p i e c e s  o f  c o d e .  
+D r a w b a c k :  
+•  W e  c a n n o t  s a v e  t h e  s t a t e m e n t s  a n d  h a v e  t o  r e t y p e  a l l  t h e  s t a t e m e n t s  o n c e  a g a i n  t o  r e - r u n  t h e m .  
+7 .  W h a t  i s  s c r i p t  m o d e .  L i s t  i t s  a d v a n t a g e s  a n d  d r a w b a c k s .  
+I n  s c r i p t  m o d e ,  w e  t y p e  p y t h o n  p r o g r a m  i n  a  f i l e  a n d  t h e n  u s e  i n t e r p r e t e r  t o  e x e c u t e  t h e  c o n t e n t  o f
+t h e  f i l e .  S c r i p t s  c a n  b e  s a v e d  t o  d i s k  f o r  f u t u r e  u s e .  P y t h o n  s c r i p t s  h a v e  t h e  e x t e n s i o n  . p y ,  m e a n i n g
+t h a t  t h e  f i l e n a m e  e n d s  w i t h  . p y .  
+
+D o c u m e n t  A u t h o r :  A s h r y a  S o n i  
+P a g e  2  o f  1 2  
+ 
+8 .  W h a t  a r e  v a r i a b l e s  a n d  h o w  t o  c r e a t e  t h e  s a m e  i n  P y t h o n ?  
+V a r i a b l e s  –  V a r i a b l e s  a r e  c o n t a i n e r s  f o r  s t o r i n g  d a t a  v a l u e s .  
+C r e a t i n g  V a r i a b l e s  –  P y t h o n  h a s  n o  c o m m a n d  f o r  d e c l a r i n g  a  v a r i a b l e .  
+A  v a r i a b l e  i s  c r e a t e d  t h e  m o m e n t  y o u  f i r s t  a s s i g n  a  v a l u e  t o  i t .  V a r i a b l e s  d o  n o t  n e e d  t o  b e  d e c l a r e d
+w i t h  a n y  t y p e  a n d  c a n  e v e n  c h a n g e  t y p e  a f t e r  t h e y  h a v e  b e e n  s e t .  
+F o r  e x a m p l e :  
+x  =  5  
+y  =  " J o h n "  
+H e r e  x  i s  v a r i a b l e  w h i c h  i s  a s s i g n e d  a  v a l u e  5  w h i c h  i s  a u t o m a t i c a l l y  d e c l a r e d  a s  i n t e g e r  a s  d a t a  t y p e
+a n d  y  i s  v a r i a b l e  w h i c h  i s  a s s i g n e d  a  v a l u e  ‘ J o h n ’  w h i c h  i s  a u t o m a t i c a l l y  d e c l a r e d  a s  s t r i n g  d a t a  t y p e .  
+9 .  D i s c u s s  D a t a  T y p e s  i s  P y t h o n ?  
+P y t h o n  s u p p o r t s  a  n u m b e r  o f  d a t a  t y p e s  s u c h  a s  n u m b e r ,  s t r i n g ,  l i s t ,  t u p l e ,  s e t  a n d  d i c t i o n a r y .  W e  w i l l
+d i s c u s s  a b o u t  n u m b e r  a n d  s t r i n g  d a t a  t y p e  h e r e :  
+N u m b e r :  T h e  f o l l o w i n g  a r e  t h e  t w o  i m p o r t a n t  n u m b e r  d a t a  t y p e :  
+a .  i n t  –  i n t  s t a n d s  f o r  i n t e g e r  w h i c h  i s  a  p o s i t i v e  o r  a  n e g a t i v e  n u m b e r  w i t h o u t  a  d e c i m a l  p o i n t .  
+T h e r e  a r e  t h r e e  t y p e s  o f  i n t e g e r s  i n  P y t h o n :
+E x a m p l e :  a  =  7 ;  b = - 9 0  
+b .  f l o a t  –  f l o a t  o r  f l o a t i n g - p o i n t  n u m b e r  i s  p o s i t i v e  o r  n e g a t i v e  n u m b e r  w i t h  a  f r a c t i o n a l  p a r t .  
+E x a m p l e :  c  =  9 . 7 ;  d  =  - 8 8 . 9  
+S t r i n g s :  S t r i n g s  i n  P y t h o n  a r e  a  s e q u e n c e  o f  c h a r a c t e r s .  T h e s e  c h a r a c t e r s  a r e  e n c l o s e d  w i t h i n  s i n g l e
+q u o t e s  ( ‘ ) ,  d o u b l e  q u o t e s  ( “ )  o r  t r i p l e  q u o t e s  ( “ ) .  T r i p l e  q u o t e s  a r e  u s e d  w h e n  t h e  s t r i n g  v a l u e
+e x t e n d s  o v e r  m o r e  t h a n  o n e  l i n e .  
+E x a m p l e  o f  s t r i n g s :  
+n a m e  =  “ M y r a ”  
+s e c t i o n  =  ‘ A ’  
+m e s s a g e  =  ‘ ‘ ‘ A  d r e a m  d o e s  n o t  b e c o m e  r e a l i t y  t h r o u g h  m a g i c ;  i t  t a k e s  s w e a t ,  d e t e r m i n a t i o n ,  a n d  h a r d
+w o r k .  ~  C o l i n  P o w e l l ’ ’ ’  
+1 0 .  W h a t  a r e  o p e r a t o r s  i n  P y t h o n ?  
+O p e r a t o r s  a r e  s p e c i a l  s y m b o l s  t h a t  a r e  u s e d  t o  p e r f o r m  o p e r a t i o n s  o n  v a r i a b l e s  a n d  v a l u e s .  O p e r a t o r s
+a r e  u s e d  i n  e v e r y d a y  M a t h e m a t i c s ,  l i k e  + ,  - ,  x ,  ÷  t o  p e r f o r m  a d d i t i o n ,  s u b t r a c t i o n ,  m u l t i p l i c a t i o n ,  a n d
+d i v i s i o n  o f  v a l u e s .  P y t h o n  a l s o  h a s  a  n u m b e r  o f  o p e r a t o r s  t h a t  h e l p  u s  p e r f o r m  o p e r a t i o n s  o f  v a r i o u s
+t y p e s .  
+1 1 .  W h a t  i s  a s s i g n m e n t  o p e r a t o r ?  
+A s s i g n m e n t  o p e r a t o r  ( = )  i s  o p e r a t o r  w h i c h  i s  u s e d  t o  a s s i g n  a  v a l u e  t o  a  v a r i a b l e .
+F o r  e x a m p l e :  
+x  =  5  
+y  =  " J o h n "  
+1 2 .  W h a t  a r e  a r i t h m e t i c  o p e r a t o r s  i n  P y t h o n ?  E x p l a i n  w i t h  a n  e x a m p l e .  
+A r i t h m e t i c  o p e r a t o r s  a r e  o p e r a t o r s  u s e d  t o  p e r f o r m  m a t h e m a t i c a l  o p e r a t i o n  o n  v a r i a b l e s  a n d  v a l u e .
+F o r  e x a m p l e ,  i n  5  +  9 ,  ‘ + ’  i s  a r i t h m e t i c  o p e r a t o r  p e r f o r m i n g  a d d i t i o n  o n  v a l u e s  5  a n d  9 .  
+S i m i l a r l y ,  i n  p  /  q ,  ‘ / ’  i s  a r i t h m e t i c  o p e r a t o r  p e r f o r m i n g  d i v i s i o n  o n  p  a n d  q .  
+

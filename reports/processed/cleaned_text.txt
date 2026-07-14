@@ -1,0 +1,79 @@
+Document Author : Ashrya Soni 
+Page 1 of 1 2
+Class IX 
+Python Programming Language 
+TheoreticalQuestions 
+
+1 . What is Python ? 
+Python is a high - level , general - purpose programming language . Its design philosophy emphasizescode readability with the use of significant indentation . 
+2 . In which area Python Programming is useful for ?
+Python Programming is useful in the area of : 
+a . web development ( server - side ) ,
+b . software development , 
+c . mathematics , 
+d . system scripting . 
+3 . What can Python do ? 
+Python can be used on a server to create web applications . 
+a . Python can be used alongside software to create workflows . 
+b . Python can connect to database systems . It can also read and modify files . 
+c . Python can be used to handle big data and perform complex mathematics . 
+d . Python can be used for rapid prototyping , or for production - ready software development . 
+4 . Why Python ? 
+Python is preferred programming language due to the following reasons : 
+a . Easy to learn : It has fewer keywords and simple structure of instructions , so less efforts to 
+learn Python . 
+Free and open source b . 
+c . Portable : A Python program can run on wide variety of hardware platforms . 
+d . Extensive library support : Python saves times and effort using the support of extensive 
+library . 
+As an example , YouTube has been largely written in Python . Google makes extensive use of Python .
+NASA uses Python for scientific programming tasks . 
+5 . What are the two modes of Python ? 
+The two modes of Python are interactive and script mode . 
+6 . What is interactive mode . List it ’ s advantages and drawbacks . 
+As the name suggests , Interactive mode allows us to interact with OS . When we type Pythonstatement , interpreter displays the result ( s ) immediately . 
+Advantages : 
+•
+• 
+Python , in interactive mode , is good enough to learn , experiment or explore . 
+Working in interactive mode is convenient for beginners and for testing small pieces of code . 
+Drawback : 
+• We cannot save the statements and have to retype all the statements once again to re - run them . 
+7 . What is script mode . List its advantages and drawbacks . 
+In script mode , we type python program in a file and then use interpreter to execute the content ofthe file . Scripts can be saved to disk for future use . Python scripts have the extension . py , meaningthat the filename ends with . py . 
+
+Document Author : Ashrya Soni 
+Page 2 of 1 2 
+
+8 . What are variables and how to create the same in Python ? 
+Variables – Variables are containers for storing data values . 
+Creating Variables – Python has no command for declaring a variable . 
+A variable is created the moment you first assign a value to it . Variables do not need to be declaredwith any type and can even change type after they have been set . 
+For example : 
+x = 5 
+y = " John " 
+Here x is variable which is assigned a value 5 which is automatically declared as integer as data typeand y is variable which is assigned a value ‘ John ’ which is automatically declared as string data type . 
+9 . Discuss Data Types is Python ? 
+Python supports a number of data types such as number , string , list , tuple , set and dictionary . We willdiscuss about number and string data type here : 
+Number : The following are the two important number data type : 
+a . int – int stands for integer which is a positive or a negative number without a decimal point . 
+There are three types of integers in Python :
+Example : a = 7 ; b = - 9 0 
+b . float – float or floating - point number is positive or negative number with a fractional part . 
+Example : c = 9 . 7 ; d = - 8 8 . 9 
+Strings : Strings in Python are a sequence of characters . These characters are enclosed within singlequotes ( ‘ ) , double quotes ( “ ) or triple quotes ( “ ) . Triple quotes are used when the string valueextends over more than one line . 
+Example of strings : 
+name = “ Myra ” 
+section = ‘ A ’ 
+message = ‘ ‘ ‘ A dream does not become reality through magic ; it takes sweat , determination , and hardwork . ~ Colin Powell ’ ’ ’ 
+1 0 . What are operators in Python ? 
+Operators are special symbols that are used to perform operations on variables and values . Operatorsare used in everyday Mathematics , like + , - , x , ÷ to perform addition , subtraction , multiplication , anddivision of values . Python also has a number of operators that help us perform operations of varioustypes . 
+1 1 . What is assignment operator ? 
+Assignment operator ( = ) is operator which is used to assign a value to a variable .
+For example : 
+x = 5 
+y = " John " 
+1 2 . What are arithmetic operators in Python ? Explain with an example . 
+Arithmetic operators are operators used to perform mathematical operation on variables and value .
+For example , in 5 + 9 , ‘ + ’ is arithmetic operator performing addition on values 5 and 9 . 
+Similarly , in p / q , ‘ / ’ is arithmetic operator performing division on p and q .
