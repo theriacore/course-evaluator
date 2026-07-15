@@ -182,3 +182,6 @@ streamlit run dashboard/app.py
 ## Dashboard Preview
 
 ![Dashboard](images/dashboard.png)
+## Dashboard Preview
+
+![Dashboard](images/coverage_chart.png)
