@@ -154,3 +154,31 @@ COURSE-EVALUATOR
 │ └── chunk_scores.png
 │
 └── README.md
+
+## Project Results
+
+Traditional Similarity Score:
+66.48%
+
+AI Semantic Similarity Score:
+62%
+
+Total Question Chunks:
+12
+
+Dashboard:
+Streamlit-based interactive dashboard displaying evaluation scores, reports, and charts.
+
+
+## How to Run
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the dashboard:
+
+streamlit run dashboard/app.py
+## Dashboard Preview
+
+![Dashboard](images/dashboard.png)
