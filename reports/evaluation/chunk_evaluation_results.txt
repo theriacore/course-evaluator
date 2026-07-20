@@ -1,23 +1,107 @@
 Chunk Evaluation Report
 ======================
 
-chunk_1.txt | 1 . What is Python | 61.43% | Moderate Coverage
-chunk_10.txt | Assignment operator ( = ) is operator which is used to assig | 60.15% | Moderate Coverage
-chunk_11.txt | Explain with an example . | 36.71% | Needs Improvement
-chunk_2.txt | Python is a high - level , general - purpose programming lan | 78.79% | Strong Coverage
-chunk_3.txt | Python Programming is useful in the area of : | 76.60% | Strong Coverage
-chunk_4.txt | Python can be used on a server to create web applications . | 78.13% | Strong Coverage
-chunk_5.txt | Python is preferred programming language due to the followin | 73.44% | Strong Coverage
-chunk_6.txt | The two modes of Python are interactive and script mode . | 64.28% | Moderate Coverage
-chunk_7.txt | Variables – Variables are containers for storing data values | 73.18% | Strong Coverage
-chunk_8.txt | Python supports a number of data types such as number , stri | 65.42% | Moderate Coverage
-chunk_9.txt | Operators are special symbols that are used to perform opera | 63.09% | Moderate Coverage
+chunk_1.txt | CONTEMPORARY I NDIA – II | 78.12% | Strong Coverage
+chunk_10.txt | India:  Major Soil Types | 55.10% | Moderate Coverage
+chunk_11.txt | of Himalayas, these soils experience denudation and are acid | 54.05% | Moderate Coverage
+chunk_12.txt | PROJECT/ACTIVITY | 59.08% | Moderate Coverage
+chunk_13.txt | Q G A F F O R | 5.35% | Needs Improvement
+chunk_14.txt | O D E I D R J U J L D B N B D | 3.88% | Needs Improvement
+chunk_15.txt | A B Z O E N M F T I S D L R C | 72.44% | Strong Coverage
+chunk_16.txt | CONTEMPORARY I NDIA – II | 53.08% | Moderate Coverage
+chunk_17.txt | CONTEMPORARY I NDIA – II | 59.63% | Moderate Coverage
+chunk_18.txt | CONTEMPORARY I NDIA – II | 56.62% | Moderate Coverage
+chunk_19.txt | CONSERVATION AND MANAGEMENT | 63.69% | Moderate Coverage
+chunk_2.txt | RESOURCE PLANNING | 68.63% | Moderate Coverage
+chunk_20.txt | WATER R ESOURCES | 66.67% | Moderate Coverage
+chunk_21.txt | I IIIINTEGRATEDNTEGRATEDNTEGRATEDNTEGRATEDNTEGRATED W  W W W | 71.22% | Strong Coverage
+chunk_22.txt | WATER R ESOURCES | 64.43% | Moderate Coverage
+chunk_23.txt | WATER R ESOURCES | 68.53% | Moderate Coverage
+chunk_24.txt | metres wide. The tankas were part of the well- developed roo | 57.19% | Moderate Coverage
+chunk_25.txt | Tamil Nadu is the first state in India which has made roofto | 61.46% | Moderate Coverage
+chunk_26.txt | WATER R ESOURCES | 53.30% | Moderate Coverage
+chunk_27.txt | (i) Discuss how rainwater harvesting in semi-arid regions of | 70.87% | Strong Coverage
+chunk_28.txt | TYPES OF FARMING | 73.09% | Strong Coverage
+chunk_29.txt | CONTEMPORARY I NDIA – II | 70.28% | Strong Coverage
+chunk_3.txt | CONTEMPORARY I NDIA – II | 65.35% | Moderate Coverage
+chunk_30.txt | India:  Distribution of Rice | 67.78% | Moderate Coverage
+chunk_31.txt | India:  Distribution of Wheat | 63.52% | Moderate Coverage
+chunk_32.txt | climate all through the year. Frequent showers evenly distri | 48.46% | Needs Improvement
+chunk_33.txt | Fig. 4.15:  Modern technological equipments used in agricult | 53.48% | Moderate Coverage
+chunk_34.txt | PROJECT WORK | 67.04% | Moderate Coverage
+chunk_35.txt | Solve the puzzle by following your search horizontally and v | 61.36% | Moderate Coverage
+chunk_36.txt | D K H A R I F G W F M R F W | 3.41% | Needs Improvement
+chunk_37.txt | J I E S J O W A R J Z H D T | 2.93% | Needs Improvement
+chunk_38.txt | O U M H Q S U D I T S W S P | 3.15% | Needs Improvement
+chunk_39.txt | E A K D G D Q H S U O I W H | 52.54% | Moderate Coverage
+chunk_4.txt | LAND USE PATTERN IN INDIA | 63.34% | Moderate Coverage
+chunk_40.txt | Where are these minerals found? Minerals are usually found i | 45.86% | Needs Improvement
+chunk_41.txt | Dig a little deeper: What is the difference between an open  | 55.96% | Moderate Coverage
+chunk_42.txt | India:  Distribution of Iron Ore, Manganese, Bauxite and Mic | 78.45% | Strong Coverage
+chunk_43.txt | Non-Metallic Minerals Mica is a mineral made up of a series  | 69.76% | Moderate Coverage
+chunk_44.txt | We all appr eciate the str ong dependence of industry and ag | 59.12% | Moderate Coverage
+chunk_45.txt | India:  Distribution of Coal, Oil and Natural Gas Collect in | 60.94% | Moderate Coverage
+chunk_46.txt | India:  Distribution of Nuclear and Thermal Power Plants Raw | 69.88% | Moderate Coverage
+chunk_47.txt | geothermal gradient is high, high temperatures are found at  | 73.86% | Strong Coverage
+chunk_48.txt | ACTIVITY | 53.47% | Moderate Coverage
+chunk_49.txt | o 7 y 5 5 | 9.35% | Needs Improvement
+chunk_5.txt | RESOURCES AND D EVELOPMENT | 47.35% | Needs Improvement
+chunk_50.txt | 57MINERALS AND E NERGY R ESOURCES | 47.91% | Needs Improvement
+chunk_51.txt | ACROSS | 62.53% | Moderate Coverage
+chunk_52.txt | IMPORTANCE OF MANUFACTURING | 65.35% | Moderate Coverage
+chunk_53.txt | CONTEMPORARY I NDIA – II | 51.60% | Moderate Coverage
+chunk_54.txt | CONTEMPORARY I NDIA – II | 74.67% | Strong Coverage
+chunk_55.txt | CONTEMPORARY I NDIA – II | 70.73% | Strong Coverage
+chunk_56.txt | CONTEMPORARY I NDIA – II | 45.32% | Needs Improvement
+chunk_57.txt | CONTEMPORARY I NDIA – II | 53.21% | Moderate Coverage
+chunk_58.txt | 69MANUFACTURING  I NDUSTRIES | 45.94% | Needs Improvement
+chunk_59.txt | PROJECT WORK | 62.72% | Moderate Coverage
+chunk_6.txt | 9.06% | 9.00% | Needs Improvement
+chunk_60.txt | CONTEMPORARY I NDIA – II | 14.69% | Needs Improvement
+chunk_61.txt | K S U G A R C A N E E N | 5.04% | Needs Improvement
+chunk_62.txt | E I R O N S T E E L S J | 10.74% | Needs Improvement
+chunk_63.txt | A S N A E N J D I Y S K | 64.89% | Moderate Coverage
+chunk_64.txt | TRANSPORT | 85.20% | Excellent Coverage
+chunk_65.txt | 73LIFELINES OF N ATIONAL E CONOMY | 69.96% | Moderate Coverage
+chunk_66.txt | 75LIFELINES OF N ATIONAL E CONOMY | 51.30% | Moderate Coverage
+chunk_67.txt | 77LIFELINES OF N ATIONAL E CONOMY | 49.56% | Needs Improvement
+chunk_68.txt | 79LIFELINES OF N ATIONAL E CONOMY | 63.76% | Moderate Coverage
+chunk_69.txt | 81LIFELINES OF N ATIONAL E CONOMY | 71.98% | Strong Coverage
+chunk_7.txt | 1.02% | 56.35% | Moderate Coverage
+chunk_70.txt | 1.1.1. | 65.32% | Moderate Coverage
+chunk_71.txt | 1. 1.1.1.1. Northern terminal of the N orth-south corridor.  | 52.76% | Moderate Coverage
+chunk_72.txt | Start your search vertically, horizontally or diagonally and | 25.62% | Needs Improvement
+chunk_73.txt | Y C H E N N N A I I K M C A I M | 7.62% | Needs Improvement
+chunk_74.txt | I L S B R O A D G A U G E L O T | 2.61% | Needs Improvement
+chunk_75.txt | K Q A I P M N Y R Y A Y H L I N | 10.08% | Needs Improvement
+chunk_8.txt | LAND D EGRADATION  AND C ONSERVATION | 61.36% | Moderate Coverage
+chunk_9.txt | Soil is the most important natural resource. It is the mediu | 69.74% | Moderate Coverage
 
 
 Final Evaluation
 ================
-Average Similarity Score: 66.48%
+Average Similarity Score: 51.88%
 Final Evaluation: Moderate Coverage
 
 Weak Sections:
-- Explain with an example .
+- Q G A F F O R
+- O D E I D R J U J L D B N B D
+- climate all through the year. Frequent showers evenly distri
+- D K H A R I F G W F M R F W
+- J I E S J O W A R J Z H D T
+- O U M H Q S U D I T S W S P
+- Where are these minerals found? Minerals are usually found i
+- o 7 y 5 5
+- RESOURCES AND D EVELOPMENT
+- 57MINERALS AND E NERGY R ESOURCES
+- CONTEMPORARY I NDIA – II
+- 69MANUFACTURING  I NDUSTRIES
+- 9.06%
+- CONTEMPORARY I NDIA – II
+- K S U G A R C A N E E N
+- E I R O N S T E E L S J
+- 77LIFELINES OF N ATIONAL E CONOMY
+- Start your search vertically, horizontally or diagonally and
+- Y C H E N N N A I I K M C A I M
+- I L S B R O A D G A U G E L O T
+- K Q A I P M N Y R Y A Y H L I N

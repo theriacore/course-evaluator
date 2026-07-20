@@ -1,37 +1,57 @@
 import re
 
+INPUT = "reports/extracted_text.txt"
+OUTPUT = "reports/cleaned_text.txt"
 
-# Read extracted text
-with open("reports/extracted_text.txt", "r", encoding="utf-8") as file:
+with open(INPUT, "r", encoding="utf-8") as file:
     text = file.read()
 
+# Remove carriage returns
+text = text.replace("\r", "")
 
-# Remove extra spaces between letters
-# Example: P y t h o n → Python
-text = re.sub(r'(?<=\b[A-Za-z])\s(?=[A-Za-z]\b)', '', text)
+# Remove repeated "Reprint"
+text = re.sub(r"Reprint\s+\d{4}-\d{2}", "", text)
 
+# Remove standalone page numbers
+text = re.sub(r"^\s*\d+\s*$", "", text, flags=re.MULTILINE)
 
-# Remove multiple spaces but keep line breaks
-text = re.sub(r'[ ]+', ' ', text)
+lines = text.split("\n")
 
+cleaned = []
 
-# Remove extra empty lines
-text = re.sub(r'\n\s*\n+', '\n\n', text)
+paragraph = ""
 
+for line in lines:
 
-# Remove PDF header information
-text = re.sub(
-    r'Document Author:.*?Page \d+ of \d+',
-    '',
-    text,
-    flags=re.IGNORECASE
-)
+    line = line.strip()
 
+    if not line:
+        continue
 
-# Save cleaned text
-with open("reports/cleaned_text.txt", "w", encoding="utf-8") as file:
-    file.write(text.strip())
+    # Keep headings separate
+    if (
+        line.isupper()
+        or re.match(r"^\d+\.\d+", line)
+    ):
 
+        if paragraph:
+            cleaned.append(paragraph.strip())
+            paragraph = ""
 
-print("Text cleaning completed!")
-print("Saved at: reports/cleaned_text.txt")
+        cleaned.append(line)
+        continue
+
+    # Merge wrapped lines
+    if paragraph:
+        paragraph += " " + line
+    else:
+        paragraph = line
+
+if paragraph:
+    cleaned.append(paragraph)
+
+with open(OUTPUT, "w", encoding="utf-8") as file:
+
+    file.write("\n\n".join(cleaned))
+
+print("Cleaning completed.")

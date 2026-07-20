@@ -1,1 +1,9 @@
-5 . What are the two modes of Python ? The two modes of Python are interactive and script mode .
+RESOURCES AND D EVELOPMENT
+
+Total geographical area of India is 3.28 million sq km. Land use data, however , is available only for 93 per cent of the total geographical area because the land use reporting for most of the north-east states except Assam has not been done fully. Moreover, some areas of Jammu and Kashmir occupied by Pakistan and China have also not been surveyed. of such land is very high. Hence, these lands are cultivated once or twice in about two to three years and if these are included in the net sown area then the percentage of NSA in India comes to  about 54 per cent of the total reporting area. The pattern of net sown area varies greatly from one state to another .  It is over 80 per cent of the total area in Punjab and Haryana and less than 10 per cent in Arunachal Pradesh, Mizoram, Manipur and Andaman Nicobar Islands. Fig. 1.4 Source : Directorate of Economics and Statistics, Ministry of Agriculture and Farmers Welfare, Government of India, 2023
+
+23.41%
+
+5.40%
+
+9.06%
