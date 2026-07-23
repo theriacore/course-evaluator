@@ -13,6 +13,7 @@ sys.path.append(
 
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+from multiprocessing import Pool, cpu_count
 
 
 from config import (
@@ -90,6 +91,66 @@ def split_ai_text(text, size=500):
 
 
     return sections
+# -----------------------------
+# Evaluate one chunk
+# -----------------------------
+def evaluate_chunk(filename):
+
+    global model
+    global ai_embeddings
+
+    path = os.path.join(
+        CHUNKS_FOLDER,
+        filename
+    )
+
+    with open(
+        path,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        chunk_text = file.read()
+
+    topic = get_topic(
+        chunk_text
+    )
+
+    chunk_embedding = model.encode(
+        [chunk_text]
+    )
+
+    similarity = cosine_similarity(
+        chunk_embedding,
+        ai_embeddings
+    )
+
+    score = max(
+        similarity[0]
+    ) * 100
+
+    if score >= 85:
+
+        evaluation = "Excellent Coverage"
+
+    elif score >= 70:
+
+        evaluation = "Strong Coverage"
+
+    elif score >= 50:
+
+        evaluation = "Moderate Coverage"
+
+    else:
+
+        evaluation = "Needs Improvement"
+
+    return (
+        filename,
+        topic,
+        score,
+        evaluation
+    )
 
 
 
@@ -99,8 +160,6 @@ print("Loading AI similarity model...")
 model = SentenceTransformer(
     "all-MiniLM-L6-v2"
 )
-
-
 
 # -----------------------------
 # Read AI generated content
@@ -148,7 +207,6 @@ with open(
     encoding="utf-8"
 ) as report:
 
-
     report.write(
         "Chunk Evaluation Report\n"
     )
@@ -157,88 +215,25 @@ with open(
         "======================\n\n"
     )
 
-
-
     for filename in sorted(
         os.listdir(CHUNKS_FOLDER)
     ):
 
-
         if filename.endswith(".txt"):
 
-
-            path = os.path.join(
-                CHUNKS_FOLDER,
+            filename, topic, score, evaluation = evaluate_chunk(
                 filename
             )
-
-
-
-            with open(
-                path,
-                "r",
-                encoding="utf-8"
-            ) as file:
-
-                chunk_text = file.read()
-
-
-
-            topic = get_topic(
-                chunk_text
-            )
-
-
-
-            chunk_embedding = model.encode(
-                [chunk_text]
-            )
-
-
-
-            similarity = cosine_similarity(
-                chunk_embedding,
-                ai_embeddings
-            )
-
-
-
-            score = max(
-                similarity[0]
-            ) * 100
-
-
 
             scores.append(
                 score
             )
 
-
-
-            if score >= 85:
-
-                evaluation = "Excellent Coverage"
-
-
-            elif score >= 70:
-
-                evaluation = "Strong Coverage"
-
-
-            elif score >= 50:
-
-                evaluation = "Moderate Coverage"
-
-
-            else:
-
-                evaluation = "Needs Improvement"
+            if evaluation == "Needs Improvement":
 
                 weak_topics.append(
                     topic
                 )
-
-
 
             result = (
                 f"{filename} | "
@@ -247,16 +242,11 @@ with open(
                 f"{evaluation}"
             )
 
-
             print(result)
-
 
             report.write(
                 result + "\n"
             )
-
-
-
 
 # -----------------------------
 # Final evaluation
