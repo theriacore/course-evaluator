@@ -210,14 +210,17 @@ with open(
     report.write(
         "Chunk Evaluation Report\n"
     )
-
     report.write(
         "======================\n\n"
     )
 
-    for filename in sorted(
-        os.listdir(CHUNKS_FOLDER)
-    ):
+    chunk_files = [
+        filename
+        for filename in sorted(os.listdir(CHUNKS_FOLDER))
+        if filename.endswith(".txt")
+    ]
+
+    for filename in chunk_files:
 
         if filename.endswith(".txt"):
 
